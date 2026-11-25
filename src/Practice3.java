@@ -1,0 +1,18 @@
+public class Practice3 {
+    public static void main(String[] args) {
+        int[][] a = {
+                {2, 4, 6},
+                {1, 3, 5},
+                {7, 8, 9}
+        };
+
+        int sum = 0;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                sum += a[i][j];
+            }
+        }
+
+        System.out.println("Sum: " + sum);
+    }
+}
